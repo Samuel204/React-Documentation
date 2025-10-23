@@ -6,5 +6,5 @@ Raccolta di note e spiegazioni sui concetti fondamentali di React.
 
 ## 📚 Sezioni
 
-- [useState Hook](./basics/UseState hook.md)
+- [useState Hook](./UseStatehook.md)
 - [Componenti e Props](./basics/components.md)
