@@ -320,22 +320,3 @@ const handleClick = () => {
 7. **Always use arrow functions** when calling state setters in event handlers
 
 ---
-
-## Practice Exercises
-
-Try building these components to practice:
-
-1. **Light Switch** - Toggle between "On" and "Off"
-2. **Text Size Controller** - Buttons to make text small, medium, or large
-3. **Mood Tracker** - Display and change your current mood
-4. **Simple Counter** - Increment, decrement, and reset a number
-5. **Background Color Changer** - Change the background color of a div
-
----
-
-## Next Steps
-
-- Learn about initializing state with different data types (strings, numbers, booleans, objects, arrays)
-- Understand when and why components re-render
-- Explore more complex state updates using previous state values
-- Learn about multiple state variables in one component
