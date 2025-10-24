@@ -451,24 +451,3 @@ setCount(prev => prev + 1);
 5. **Direct values are fine** when not depending on previous state
 6. **Callbacks prevent bugs** in scenarios with multiple rapid updates
 7. **The parameter name is your choice** - React just passes the current state
-
----
-
-## Practice Exercises
-
-Try building these components using callback functions:
-
-1. **Double Counter** - Button that increments by 2 each click
-2. **Like Button** - Toggle between liked and not liked
-3. **Multi-Click Counter** - Button that adds 10 to the count (using 10 separate updates)
-4. **Bounded Counter** - Counter that can't go below 0 or above 100
-5. **Score Calculator** - Add points with bonuses based on current score
-
----
-
-## Next Steps
-
-- Learn about updating complex state (objects and arrays)
-- Understand React's batching behavior in detail
-- Explore multiple state variables in one component
-- Study when React re-renders components
