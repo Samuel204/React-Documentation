@@ -78,6 +78,7 @@ export default function Counter() {
   );
 }
 ```
+definisco una funzione e la assegno alla costante increment.
 
 ---
 
