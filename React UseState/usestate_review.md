@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Congratulations! You've learned how to build stateful function components using the `useState` React Hook. This review summarizes all the key concepts, patterns, and best practices we've covered.
+This review summarizes all the key concepts, patterns, and best practices we've covered.
 
 ---
 
