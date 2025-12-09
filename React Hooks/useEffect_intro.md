@@ -612,20 +612,6 @@ function Component({ users }) {
 
 ---
 
-## What's Next?
-
-In the following sections, we'll learn:
-
-1. **Effect syntax in detail** - Complete anatomy of useEffect
-2. **Dependency arrays** - Fine-tuning when effects run
-3. **Cleanup functions** - Properly cleaning up resources
-4. **Multiple effects** - Organizing side effects
-5. **Common patterns** - Data fetching, subscriptions, timers
-6. **Performance optimization** - Avoiding unnecessary effects
-7. **Best practices** - Writing maintainable effects
-
----
-
 ## Key Takeaways
 
 1. **useEffect enables side effects** in function components
@@ -656,13 +642,3 @@ function Clock() {
   return <div>{time.toLocaleTimeString()}</div>;
 }
 ```
-
----
-
-## Next Steps
-
-Ready to dive deeper? Continue to the next sections where we'll explore:
-- Complete useEffect syntax
-- Dependency array patterns
-- Cleanup functions in detail
-- Real-world examples and patterns
