@@ -111,11 +111,10 @@ return () => {
 #### 4. **The Event Handler**
 ```javascript
 const increment = () => {
-  setClickCount((prev) => clickCount + 1);
+  setClickCount((prev) => prev + 1);
 };
 ```
 - Updates the click count when called
-- ⚠️ **Note:** There's a bug here! Should use `prev + 1` instead of `clickCount + 1`
 
 ---
 
