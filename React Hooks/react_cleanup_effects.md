@@ -72,7 +72,7 @@ export default function Counter() {
   });
 
   const increment = () => {
-    setClickCount((prev) => clickCount + 1);
+    setClickCount((prev) => prev + 1);
   };
 
   return (
@@ -210,23 +210,3 @@ useEffect(() => {
   // State updates don't need cleanup
 });
 ```
-
----
-
-## Bug Fix in Your Code
-
-Your increment function has a small issue:
-
-```javascript
-// ❌ Current (uses stale value)
-const increment = () => {
-  setClickCount((prev) => clickCount + 1);
-};
-
-// ✅ Fixed (uses prev parameter correctly)
-const increment = () => {
-  setClickCount((prev) => prev + 1);
-};
-```
-
-The parameter `prev` represents the current state value, so you should use `prev + 1` instead of `clickCount + 1` to avoid stale closure issues.
