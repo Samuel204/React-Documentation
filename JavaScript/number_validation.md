@@ -1,4 +1,4 @@
-# JavaScript Number Input Validation - Complete Guide
+# JavaScript Number Input Validation
 
 ## 📋 Overview
 This code creates a **strict validation** for an input field that only accepts positive integers (whole numbers). It uses two different JavaScript events to ensure users can only enter numbers.
