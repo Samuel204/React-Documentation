@@ -1,4 +1,4 @@
-# DOMContentLoaded Event - Complete Guide
+# DOM Content Loaded Event
 
 ## 📋 Overview
 `DOMContentLoaded` is a browser event that fires when the HTML document has been completely loaded and parsed, **before** all external resources (images, CSS, fonts, etc.) have finished loading.
